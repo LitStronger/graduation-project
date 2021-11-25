@@ -1,17 +1,16 @@
-%[S, Fs]=audioread('sample-raw.aac'); % Fs 采样率 
-%[S, Fs]=audioread('sample-ditong.aac'); % Fs 采样率 
-%[S, Fs]=audioread('sample-cut.aac'); % Fs 采样率 
-%[S, Fs]=audioread('sample-revert.aac'); % Fs 采样率 
+Modulus = 3901;
+PrivateExponent = 2515;
 
-%[S, Fs]=audioread('audio.aac'); % Fs 采样率  
-%[S, Fs]=audioread('audio-ditong.aac'); % Fs 采样率 
-%[S, Fs]=audioread('audio-revert.aac'); % Fs 采样率 
-[S, Fs]=audioread('audio-noise.aac'); % Fs 采样率 
+% audioread函数读取音频文件（X--保存音频信号的数据；Fs--音频采样率）
+%[S, Fs]=audioread('../assets/audio-raw.aac'); % Fs 原音频
+[S, Fs]=audioread('../assets/audio-ditong.aac'); % Fs 低通处理
+%[S, Fs]=audioread('../assets/audio-revert.aac'); % Fs 片段倒装处理 
+%[S, Fs]=audioread('../assets/audio-noise.aac'); % Fs 降噪处理
+%[S, Fs]=audioread('../assets/audio-resample_44.1khz.aac'); % Fs 重采样处理
 
-                  % audioread函数读取音频文件（X--保存音频信号的数据；Fs--音频采样率）
 s=S(1:length(S)); %如果是双声道则合并
 
-% 将信号分割成 x * 2048的矩阵，每一行即为一段长度为8192的信号片段，存放在矩阵tem中
+% 将信号分割成 x * 8192 的矩阵，每一行即为一段长度为8192的信号片段，存放在矩阵tem中
 sum = 1;
 x = 1;
 len = 8192; % 分段长度
@@ -52,9 +51,19 @@ for i = length(T)/2+1:length(T)
     TString = strcat(TString,t); 
 end
 
-deT = strsplit(TString);
+% deT = strsplit(TString);
+% data = str2num(cell2mat(deT(3)));
 
-data = str2num(cell2mat(deT(3)));
+% 获取数字摘要
+hash = GetMD5(TString,'Array','hex'); 
+
+% 生成签名/认证 
+int32EncodeSignature = Sign(Modulus, PrivateExponent, hash);
+Signature = num2str(int32EncodeSignature);
+fprintf('Signature:%s\n',Signature);
+
+
+
 
 
 
