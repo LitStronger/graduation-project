@@ -1,19 +1,23 @@
-Modulus = 3901;
-PrivateExponent = 2515;
+Modulus = 1027;
+PrivateExponent = 749;
 
 % audioread函数读取音频文件（X--保存音频信号的数据；Fs--音频采样率）
-%[S, Fs]=audioread('../assets/audio-raw.aac'); % Fs 原音频
-[S, Fs]=audioread('../assets/audio-ditong.aac'); % Fs 低通处理
+[S, Fs]=audioread('../assets/test_assets/raw/audio_test1_Sub_01.aac'); % Fs 原音频
+%[S, Fs]=audioread('../assets/test_assets/tamper_2.5%/audio_test1_Sub_07.aac'); % Fs 篡改音频
+
+%[S, Fs]=audioread('../assets/audio-ditong.aac'); % Fs 低通处理
 %[S, Fs]=audioread('../assets/audio-revert.aac'); % Fs 片段倒装处理 
 %[S, Fs]=audioread('../assets/audio-noise.aac'); % Fs 降噪处理
 %[S, Fs]=audioread('../assets/audio-resample_44.1khz.aac'); % Fs 重采样处理
 
 s=S(1:length(S)); %如果是双声道则合并
 
+%s=s+normrnd(0,0.005);% 加噪
+
 % 将信号分割成 x * 8192 的矩阵，每一行即为一段长度为8192的信号片段，存放在矩阵tem中
 sum = 1;
 x = 1;
-len = 8192; % 分段长度
+len = 4096; % 分段长度
 sLen = (length(s)/len)+1;
 while x<=sLen 
     for y=1:len               
@@ -43,11 +47,11 @@ end
 T = [E,SD]; % 拼接一维数组E和SD，得到一维数组T
 TString = '';
 for i = 1:length(T)/2
-    t = sprintf('%8.1f',T(i)); %将T中的数据全部处理为8位字符串，整数部分四位，小数点后保留三位
+    t = sprintf('%8.2f',T(i)); %将T中的数据全部处理为8位字符串，整数部分四位，小数点后保留三位
     TString = strcat(TString,t); 
 end
 for i = length(T)/2+1:length(T)
-    t = sprintf('%8.1f',T(i)); %将T中的数据全部处理为8位字符串，整数部分四位，小数点后保留三位
+    t = sprintf('%8.2f',T(i)); %将T中的数据全部处理为8位字符串，整数部分四位，小数点后保留三位
     TString = strcat(TString,t); 
 end
 
@@ -61,6 +65,8 @@ hash = GetMD5(TString,'Array','hex');
 int32EncodeSignature = Sign(Modulus, PrivateExponent, hash);
 Signature = num2str(int32EncodeSignature);
 fprintf('Signature:%s\n',Signature);
+fprintf('char:%s\n', char(int32EncodeSignature));
+
 
 
 

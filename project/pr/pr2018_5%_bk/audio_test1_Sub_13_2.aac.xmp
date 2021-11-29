@@ -1,0 +1,205 @@
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c143 79.161210, 2017/08/11-10:28:36        " rdfhash="84EF48A857CC49DE0A2B0F321A739A9C" merged="0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:bext="http://ns.adobe.com/bwf/bext/1.0/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:creatorAtom="http://ns.adobe.com/creatorAtom/1.0/"
+   xmpMM:InstanceID="xmp.iid:b45f1447-5b51-874a-9261-d7ede6aead4f"
+   xmpMM:DocumentID="7f5e3dc8-229c-7986-b75c-c89a0000005b"
+   xmpMM:OriginalDocumentID="xmp.did:fffe67f8-ec71-e44b-b89f-f6d61883a25b"
+   xmp:MetadataDate="2021-11-28T23:06:43+08:00"
+   xmp:ModifyDate="2021-11-28T23:06:43+08:00"
+   xmp:CreatorTool="Adobe Adobe Media Encoder CC 2018.0 (Windows)"
+   xmp:CreateDate="2021-11-28T23:06:13+08:00"
+   xmpDM:audioSampleRate="44100"
+   xmpDM:audioSampleType="16Int"
+   xmpDM:audioChannelType="Stereo"
+   xmpDM:startTimeScale="25"
+   xmpDM:startTimeSampleSize="1"
+   dc:format="AAC 音频">
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="7fdb9846-24cf-3460-946c-40a500000088"
+      stEvt:when="2021-11-28T23:06:43+08:00"
+      stEvt:softwareAgent="Adobe Adobe Media Encoder CC 2018.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="created"
+      stEvt:instanceID="xmp.iid:e845c6ed-1fd6-b546-bf2c-f3ad20180fd6"
+      stEvt:when="2021-11-28T23:06:43+08:00"
+      stEvt:softwareAgent="Adobe Adobe Media Encoder CC 2018.0 (Windows)"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:041ed84b-9fcd-4b42-b117-48c217caf4e2"
+      stEvt:when="2021-11-28T23:06:43+08:00"
+      stEvt:softwareAgent="Adobe Adobe Media Encoder CC 2018.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:b45f1447-5b51-874a-9261-d7ede6aead4f"
+      stEvt:when="2021-11-28T23:06:43+08:00"
+      stEvt:softwareAgent="Adobe Adobe Media Encoder CC 2018.0 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+   <xmpMM:Ingredients>
+    <rdf:Bag>
+     <rdf:li
+      stRef:instanceID="dd585b58-bf14-4177-484a-ad7f00000076"
+      stRef:documentID="dc9ddbb8-154d-6f9d-d83b-308000000049"
+      stRef:fromPart="time:7955781120000f254016000000d223534080000f254016000000"
+      stRef:toPart="time:0d223534080000f254016000000"
+      stRef:filePath="audio_test1.mp3"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="dd585b58-bf14-4177-484a-ad7f00000076"
+      stRef:documentID="dc9ddbb8-154d-6f9d-d83b-308000000049"
+      stRef:fromPart="time:8189475840000f254016000000d10160640000f254016000000"
+      stRef:toPart="time:254016000000f254016000000d10160640000f254016000000"
+      stRef:filePath="audio_test1.mp3"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="dd585b58-bf14-4177-484a-ad7f00000076"
+      stRef:documentID="dc9ddbb8-154d-6f9d-d83b-308000000049"
+      stRef:fromPart="time:8199636480000f254016000000d20321280000f254016000000"
+      stRef:toPart="time:223534080000f254016000000d20321280000f254016000000"
+      stRef:filePath="audio_test1.mp3"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="dd585b58-bf14-4177-484a-ad7f00000076"
+      stRef:documentID="dc9ddbb8-154d-6f9d-d83b-308000000049"
+      stRef:fromPart="time:8179315200000f254016000000d10160640000f254016000000"
+      stRef:toPart="time:243855360000f254016000000d10160640000f254016000000"
+      stRef:filePath="audio_test1.mp3"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="dd585b58-bf14-4177-484a-ad7f00000076"
+      stRef:documentID="dc9ddbb8-154d-6f9d-d83b-308000000049"
+      stRef:fromPart="time:8219957760000f254016000000d274337280000f254016000000"
+      stRef:toPart="time:264176640000f254016000000d274337280000f254016000000"
+      stRef:filePath="audio_test1.mp3"
+      stRef:maskMarkers="None"/>
+    </rdf:Bag>
+   </xmpMM:Ingredients>
+   <xmpMM:Pantry>
+    <rdf:Bag>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreatorTool="Adobe Audition CS6 (Windows)"
+       xmp:CreateDate="2021-11-05T12:29:40+08:00"
+       xmp:MetadataDate="2021-11-28T23:06:43+08:00"
+       xmp:ModifyDate="2021-11-26T21:48:57+08:00"
+       bext:originationDate="2021-11-05"
+       bext:originationTime="12:31:33"
+       xmpMM:InstanceID="dd585b58-bf14-4177-484a-ad7f00000076"
+       xmpMM:DocumentID="dc9ddbb8-154d-6f9d-d83b-308000000049"
+       xmpMM:OriginalDocumentID="xmp.did:0F9B5374F03DEC11A959A37F20D4E295"
+       dc:format="audio/mpeg"
+       xmpDM:partOfCompilation="false"
+       xmpDM:genre="Other">
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:0F9B5374F03DEC11A959A37F20D4E295"
+         stEvt:when="2021-11-05T12:47:33+08:00"
+         stEvt:softwareAgent="Adobe Audition CS6 (Windows)"
+         stEvt:changed="/metadata"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:109B5374F03DEC11A959A37F20D4E295"
+         stEvt:when="2021-11-05T12:47:33+08:00"
+         stEvt:softwareAgent="Adobe Audition CS6 (Windows)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="modified"
+         stEvt:parameters="unknown modifications"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="dd585b58-bf14-4177-484a-ad7f00000076"
+         stEvt:when="2021-11-26T21:48:57+08:00"
+         stEvt:softwareAgent="Adobe Adobe Media Encoder CC 2018.0 (Windows)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:dffc9672-fe25-0c40-acb6-2eaaa19e4062"
+         stEvt:when="2021-11-28T23:06:43+08:00"
+         stEvt:softwareAgent="Adobe Adobe Media Encoder CC 2018.0 (Windows)"
+         stEvt:changed="/metadata"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      <xmpMM:DerivedFrom
+       stRef:instanceID="xmp.iid:0F9B5374F03DEC11A959A37F20D4E295"
+       stRef:documentID="xmp.did:0F9B5374F03DEC11A959A37F20D4E295"
+       stRef:originalDocumentID="xmp.did:0F9B5374F03DEC11A959A37F20D4E295"/>
+      <xmpDM:Tracks>
+       <rdf:Bag>
+        <rdf:li
+         xmpDM:trackName="CuePoint Markers"
+         xmpDM:trackType="Cue"
+         xmpDM:frameRate="f44100"/>
+        <rdf:li
+         xmpDM:trackName="Subclip Markers"
+         xmpDM:trackType="InOut"
+         xmpDM:frameRate="f44100"/>
+       </rdf:Bag>
+      </xmpDM:Tracks>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Bag>
+   </xmpMM:Pantry>
+   <xmpMM:DerivedFrom
+    stRef:instanceID="xmp.iid:e845c6ed-1fd6-b546-bf2c-f3ad20180fd6"
+    stRef:documentID="xmp.did:e845c6ed-1fd6-b546-bf2c-f3ad20180fd6"
+    stRef:originalDocumentID="xmp.did:e845c6ed-1fd6-b546-bf2c-f3ad20180fd6"/>
+   <creatorAtom:windowsAtom
+    creatorAtom:extension=".prproj"
+    creatorAtom:invocationFlags="/L"
+    creatorAtom:uncProjectPath="\\?\C:\Users\lyq\Desktop\毕设\project\pr\pr2018_10%_bk\未命名.prproj"/>
+   <creatorAtom:macAtom
+    creatorAtom:applicationCode="1347449455"
+    creatorAtom:invocationAppleEvent="1129468018"/>
+   <xmpDM:projectRef
+    xmpDM:type="movie"/>
+   <xmpDM:duration
+    xmpDM:value="53"
+    xmpDM:scale="1/25"/>
+   <xmpDM:startTimecode
+    xmpDM:timeFormat="25Timecode"
+    xmpDM:timeValue="00:00:32:03"/>
+   <xmpDM:altTimecode
+    xmpDM:timeValue="00:00:32:03"
+    xmpDM:timeFormat="25Timecode"/>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>

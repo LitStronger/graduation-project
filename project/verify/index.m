@@ -1,16 +1,16 @@
 % 模与公钥
-Modulus = 3901;
-PublicExponent = 3; 
+Modulus = 1027;
+PublicExponent = 5; 
 
 % 认证码 
-strSignature = '1102   964  3009  1102  3752  3173  2225   157  2885  3752  2885  3173  3173  2225  3611  3611  2885  2225  2225  2885  3741  3752  1102  3308   537   157  2570  2885   157   921   921  3308';
+strSignature = '485  289  432  485  151  612  838  836  506  151  506  612  612  838  143  143  506  838  838  506  826  151  485  999  902  836  972  506  836   67   67  999';
 int32Signature = str2num(strSignature);
 
-%[S, Fs]=audioread('../assets/audio-raw.aac'); % Fs 原音频
+[S, Fs]=audioread('../assets/audio-raw.aac'); % Fs 原音频
 %[S, Fs]=audioread('../assets/audio-ditong.aac'); % Fs 低通处理
 %[S, Fs]=audioread('../assets/audio-revert.aac'); % Fs 片段倒装处理 
 %[S, Fs]=audioread('../assets/audio-noise.aac'); % Fs 降噪处理
-%[S, Fs]=audioread('../assets/audio-resample_44.1khz.aac'); % Fs 重采样处理
+%[S, Fs]=audioread('../assets/audio-resample_44.1khz.aac'); % Fs 重采样处理，先将音频信号由原来的441.kHz采样到48kHz，再恢复采样率到44.1kHz
 
 s=S(1:length(S)); %如果是双声道则合并
 
