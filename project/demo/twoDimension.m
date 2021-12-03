@@ -1,4 +1,4 @@
- [S, Fs]=audioread('../sample.mp3');s=S(1:length(S));   % Fs 采样率 48000
+ [S, Fs]=audioread('../assets/audio.aac');s=S(1:length(S));   % Fs 采样率 48000
                   % audioread函数读取音频文件（X--保存音频信号的数据；Fs--音频采样率）
 wavename='db4'; % 选定小波基                
 totalscal=128;

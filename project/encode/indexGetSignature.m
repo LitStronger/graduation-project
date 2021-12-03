@@ -2,7 +2,17 @@ function [Signature] = indexGetSignature(S,Modulus,PrivateExponent)
 
 s=S(1:length(S)); %如果是双声道则合并
 
-% 将信号分割成 x * 8192 的矩阵，每一行即为一段长度为8192的信号片段，存放在矩阵tem中
+sIndex = 1;
+for s_i = 1:length(s) 
+    if(abs(s(s_i))>= 0.05)
+        tem_s(sIndex) = s(s_i);
+        sIndex = sIndex+1;
+    end
+end
+s = tem_s;
+%s = awgn(s,40,'measured'); % 加噪
+
+% 将信号分割成 x * 4096 的矩阵，每一行即为一段长度为4096的信号片段，存放在矩阵tem中
 sum = 1;
 x = 1;
 len = 4096; % 分段长度
