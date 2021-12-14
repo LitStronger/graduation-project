@@ -35,7 +35,7 @@ end
 i = 1;
 while i<=sLen
     t = tem(i,:); % 取第i行
-    [C,L] = wavedec(t,3,'db1');% 用db3小波函数进行3层分解
+    [C,L] = wavedec(t,3,'db1');% 用db1小波函数进行3层分解
     [cd1,cd2,cd3]=detcoef(C,L,[1,2,3]);%提取第三层的细节分量（高频部分)
     ca3= abs(appcoef(C,L,'db1',3));%提取第三层的近似分量（低频部分）,并取其绝对值
     E(i) = mean(ca3); % 绝对值的平均值

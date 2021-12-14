@@ -17,10 +17,10 @@ for i=1:sum
    % Fs 待认证音频
    % 加噪
    %S2 = awgn(S1,100,'measured');
-   %S2 = S1; 
+   S2 = S1; 
    
    % 2.5%
-   [S2, Fs]=audioread(['../assets/test_assets/tamper_2.5%/audio_test1_Sub_',nameIndex,'.aac']); 
+   %[S2, Fs]=audioread(['../assets/test_assets/tamper_2.5%/audio_test1_Sub_',nameIndex,'.aac']); 
   
    % 5%
    %[S2, Fs]=audioread(['../assets/test_assets/tamper_5%/audio_test1_Sub_',nameIndex,'_1.aac']); 
@@ -33,12 +33,12 @@ for i=1:sum
    fprintf('No.%d\t',i);
    
    % 三层小波变近似系数作为特征
-   signature = indexGetSignature(S1,1027,749);
-   isVerified = indexVerify(S2,signature,1027,5);
+   %signature = indexGetSignature(S1,1027,749);
+   %isVerified = indexVerify(S2,signature,1027,5);
    
    % mfcc系数作为特征
-   %signature = indexGetSignatureMfcc(S1,Fs,1027,749);
-   %isVerified = indexVerifyMfcc(S2,Fs,signature,1027,5);
+   signature = indexGetSignatureMfcc(S1,Fs,1027,749);
+   isVerified = indexVerifyMfcc(S2,Fs,signature,1027,5);
    
    if(isVerified == 1)
     numOfSuccess = numOfSuccess + 1;

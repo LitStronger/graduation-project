@@ -10,7 +10,6 @@ for s_i = 1:length(s)
     end
 end
 s = tem_s;
-%s = awgn(s,40,'measured'); % 加噪
 
 % 将信号分割成 x * 4096 的矩阵，每一行即为一段长度为4096的信号片段，存放在矩阵tem中
 sum = 1;

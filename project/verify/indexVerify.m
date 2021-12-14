@@ -14,7 +14,7 @@ for s_i = 1:length(s)
     end
 end
 s = tem_s;
-s = awgn(s,50,'measured'); % 加噪
+%s = awgn(s,20,'measured'); 
 
 % 将信号分割成 x * 8192 的矩阵，每一行即为一段长度为8192的信号片段，存放在矩阵tem中
 sum = 1;
