@@ -11,7 +11,6 @@ for s_i = 1:length(s)
     end
 end
 s = tem_s;
-%s = awgn(s,40,'measured'); % 加噪
 
 % 将信号分割成 x * 4096 的矩阵，每一行即为一段长度为4096的信号片段，存放在矩阵tem中
 sum = 1;
@@ -59,6 +58,8 @@ for i = length(T)/2+1:length(T)
     t = sprintf('%8.2f',T(i)); %将T中的数据全部处理为8位字符串，整数部分四位，小数点后保留三位
     TString = strcat(TString,t); 
 end
+
+fprintf('\nTString:%s',TString);
 
 % 获取数字摘要
 hash = GetMD5(TString,'Array','hex'); 

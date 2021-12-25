@@ -52,9 +52,11 @@ for i = length(T)/2+1:length(T)
     TString = strcat(TString,t); 
 end
 
+fprintf('\nTString:%s',TString);
+
 % 获取数字摘要
 hash = GetMD5(TString,'Array','hex'); 
-
+fprintf('\nhash1:%s', hash);
 % 生成签名/认证 
 int32EncodeSignature = Sign(Modulus, PrivateExponent, hash);
 Signature = num2str(int32EncodeSignature);

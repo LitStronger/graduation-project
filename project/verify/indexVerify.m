@@ -1,4 +1,5 @@
 function isVerified = indexVerify(S,Signature,Modulus, PublicExponent)
+addpath ../lowPass;
 
 % 认证码 
 strSignature = Signature;
@@ -6,6 +7,20 @@ int32Signature = str2num(strSignature);
 
 s=S(1:length(S)); %如果是双声道则合并
 
+% N=2^nextpow2(length(s));
+%     ss = filter(lowPass5000,s);
+%     sss = fft(ss,N);
+%     sssp = fft(s,N);
+%     figure(1);
+%     subplot(221);
+%     plot(s);
+%     subplot(222);
+%     plot(abs(sssp(1:N/2)));
+%     subplot(223);
+%     plot(ss);
+%     subplot(224);
+%     plot(abs(sss(1:N/2)));
+    
 sIndex = 1;
 for s_i = 1:length(s) 
     if(abs(s(s_i))>= 0.05)
@@ -14,7 +29,9 @@ for s_i = 1:length(s)
     end
 end
 s = tem_s;
-%s = awgn(s,20,'measured'); 
+
+% s = filter(lowPass5000,s);
+% s = awgn(s,60,'measured'); 
 
 % 将信号分割成 x * 8192 的矩阵，每一行即为一段长度为8192的信号片段，存放在矩阵tem中
 sum = 1;
@@ -57,8 +74,10 @@ for i = length(T)/2+1:length(T)
     TString = strcat(TString,t); 
 end
 
+fprintf('\nTString:%s\n',TString);
+
 hash = GetMD5(TString,'Array','hex'); % 获取数字摘要
 isVerified = Verify(Modulus, PublicExponent, hash, int32Signature);
-%fprintf('%s\n', hash);
-fprintf('Is Verified:%d\n', isVerified);
+fprintf('hash2:%s', hash);
+fprintf('\nIs Verified:%d\n', isVerified);
 end

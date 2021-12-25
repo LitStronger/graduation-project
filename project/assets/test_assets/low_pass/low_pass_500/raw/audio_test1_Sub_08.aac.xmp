@@ -1,0 +1,177 @@
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c143 79.161210, 2017/08/11-10:28:36        " rdfhash="B571107F603FE02F5662B40E5B3C6130" merged="0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:bext="http://ns.adobe.com/bwf/bext/1.0/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:creatorAtom="http://ns.adobe.com/creatorAtom/1.0/"
+   xmpMM:InstanceID="xmp.iid:4ef01c4f-0f16-7c41-9a06-c1f6771eee00"
+   xmpMM:DocumentID="eef6200a-6ec5-cf42-df1d-438300000057"
+   xmpMM:OriginalDocumentID="xmp.did:9d7de740-0d00-cd4d-af03-4b21d6355754"
+   xmp:MetadataDate="2021-12-21T15:59:46+08:00"
+   xmp:ModifyDate="2021-12-21T15:59:46+08:00"
+   xmp:CreatorTool="Adobe Adobe Media Encoder CC 2018.0 (Windows)"
+   xmp:CreateDate="2021-12-21T15:59:16+08:00"
+   xmpDM:audioSampleRate="44100"
+   xmpDM:audioSampleType="16Int"
+   xmpDM:audioChannelType="Stereo"
+   xmpDM:startTimeScale="25"
+   xmpDM:startTimeSampleSize="1"
+   dc:format="AAC 音频">
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="e289c4ae-b94c-7ee1-4793-9e3200000084"
+      stEvt:when="2021-12-21T15:59:46+08:00"
+      stEvt:softwareAgent="Adobe Adobe Media Encoder CC 2018.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="created"
+      stEvt:instanceID="xmp.iid:8d6703f7-24b9-c943-83e1-e532c642690a"
+      stEvt:when="2021-12-21T15:59:46+08:00"
+      stEvt:softwareAgent="Adobe Adobe Media Encoder CC 2018.0 (Windows)"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:071c7fcc-1196-ae49-9f37-289d6de953d4"
+      stEvt:when="2021-12-21T15:59:46+08:00"
+      stEvt:softwareAgent="Adobe Adobe Media Encoder CC 2018.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:4ef01c4f-0f16-7c41-9a06-c1f6771eee00"
+      stEvt:when="2021-12-21T15:59:46+08:00"
+      stEvt:softwareAgent="Adobe Adobe Media Encoder CC 2018.0 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+   <xmpMM:Ingredients>
+    <rdf:Bag>
+     <rdf:li
+      stRef:instanceID="dd585b58-bf14-4177-484a-ad7f00000076"
+      stRef:documentID="dc9ddbb8-154d-6f9d-d83b-308000000049"
+      stRef:fromPart="time:4165862400000f254016000000d1148152320000f254016000000"
+      stRef:toPart="time:0d1148152320000f254016000000"
+      stRef:filePath="audio_test1.mp3"
+      stRef:maskMarkers="None"/>
+    </rdf:Bag>
+   </xmpMM:Ingredients>
+   <xmpMM:Pantry>
+    <rdf:Bag>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreatorTool="Adobe Audition CS6 (Windows)"
+       xmp:CreateDate="2021-11-05T12:29:40+08:00"
+       xmp:MetadataDate="2021-12-21T15:59:46+08:00"
+       xmp:ModifyDate="2021-12-21T14:59:53+08:00"
+       bext:originationDate="2021-11-05"
+       bext:originationTime="12:31:33"
+       xmpMM:InstanceID="dd585b58-bf14-4177-484a-ad7f00000076"
+       xmpMM:DocumentID="dc9ddbb8-154d-6f9d-d83b-308000000049"
+       xmpMM:OriginalDocumentID="xmp.did:0F9B5374F03DEC11A959A37F20D4E295"
+       dc:format="audio/mpeg"
+       xmpDM:partOfCompilation="false"
+       xmpDM:genre="Other">
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:0F9B5374F03DEC11A959A37F20D4E295"
+         stEvt:when="2021-11-05T12:47:33+08:00"
+         stEvt:softwareAgent="Adobe Audition CS6 (Windows)"
+         stEvt:changed="/metadata"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:109B5374F03DEC11A959A37F20D4E295"
+         stEvt:when="2021-11-05T12:47:33+08:00"
+         stEvt:softwareAgent="Adobe Audition CS6 (Windows)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="modified"
+         stEvt:parameters="unknown modifications"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="dd585b58-bf14-4177-484a-ad7f00000076"
+         stEvt:when="2021-12-21T14:59:53+08:00"
+         stEvt:softwareAgent="Adobe Adobe Media Encoder CC 2018.0 (Windows)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:3fbecdef-aed9-8249-93f3-a12eb626acbc"
+         stEvt:when="2021-12-21T15:59:46+08:00"
+         stEvt:softwareAgent="Adobe Adobe Media Encoder CC 2018.0 (Windows)"
+         stEvt:changed="/metadata"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      <xmpMM:DerivedFrom
+       stRef:instanceID="xmp.iid:0F9B5374F03DEC11A959A37F20D4E295"
+       stRef:documentID="xmp.did:0F9B5374F03DEC11A959A37F20D4E295"
+       stRef:originalDocumentID="xmp.did:0F9B5374F03DEC11A959A37F20D4E295"/>
+      <xmpDM:Tracks>
+       <rdf:Bag>
+        <rdf:li
+         xmpDM:trackName="CuePoint Markers"
+         xmpDM:trackType="Cue"
+         xmpDM:frameRate="f44100"/>
+        <rdf:li
+         xmpDM:trackName="Subclip Markers"
+         xmpDM:trackType="InOut"
+         xmpDM:frameRate="f44100"/>
+       </rdf:Bag>
+      </xmpDM:Tracks>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Bag>
+   </xmpMM:Pantry>
+   <xmpMM:DerivedFrom
+    stRef:instanceID="xmp.iid:8d6703f7-24b9-c943-83e1-e532c642690a"
+    stRef:documentID="xmp.did:8d6703f7-24b9-c943-83e1-e532c642690a"
+    stRef:originalDocumentID="xmp.did:8d6703f7-24b9-c943-83e1-e532c642690a"/>
+   <creatorAtom:windowsAtom
+    creatorAtom:extension=".prproj"
+    creatorAtom:invocationFlags="/L"
+    creatorAtom:uncProjectPath="\\?\C:\Users\lyq\Desktop\毕设\project\pr\pr2018_raw_low-pass_500\未命名.prproj"/>
+   <creatorAtom:macAtom
+    creatorAtom:applicationCode="1347449455"
+    creatorAtom:invocationAppleEvent="1129468018"/>
+   <xmpDM:projectRef
+    xmpDM:type="movie"/>
+   <xmpDM:duration
+    xmpDM:value="113"
+    xmpDM:scale="1/25"/>
+   <xmpDM:startTimecode
+    xmpDM:timeFormat="25Timecode"
+    xmpDM:timeValue="00:00:17:05"/>
+   <xmpDM:altTimecode
+    xmpDM:timeValue="00:00:17:05"
+    xmpDM:timeFormat="25Timecode"/>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>

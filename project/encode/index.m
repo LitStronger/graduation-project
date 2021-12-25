@@ -2,13 +2,16 @@ Modulus = 1027;
 PrivateExponent = 749;
 
 % audioread函数读取音频文件（X--保存音频信号的数据；Fs--音频采样率）
-[S, Fs]=audioread('../assets/test_assets/raw/audio_test1_Sub_06.aac'); % Fs 原音频
+[S, Fs]=audioread('../assets/test_assets/raw/audio_test1_Sub_13.aac'); % Fs 原音频
 %[S, Fs]=audioread('../assets/test_assets/tamper_7.5%/audio_test1_Sub_06_1.aac'); % Fs 篡改音频
 
 %[S, Fs]=audioread('../assets/audio-ditong.aac'); % Fs 低通处理
 %[S, Fs]=audioread('../assets/audio-revert.aac'); % Fs 片段倒装处理 
 %[S, Fs]=audioread('../assets/audio-noise.aac'); % Fs 降噪处理
 %[S, Fs]=audioread('../assets/audio-resample_44.1khz.aac'); % Fs 重采样处理
+
+% 低通处理
+%[S, Fs]=audioread('../assets/test_assets/low_pass_500/raw/audio_test1_Sub_13.aac'); % Fs 低通处理
 
 s=S(1:length(S)); %如果是双声道则合并
 %s = awgn(s,5,'measured');
