@@ -78,6 +78,6 @@ fprintf('\nTString:%s\n',TString);
 
 hash = GetMD5(TString,'Array','hex'); % 获取数字摘要
 isVerified = Verify(Modulus, PublicExponent, hash, int32Signature);
-fprintf('hash2:%s', hash);
+fprintf('hash2:%s', hash); 
 fprintf('\nIs Verified:%d\n', isVerified);
 end
